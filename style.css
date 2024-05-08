@@ -1,0 +1,599 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Quicksand:wght@300..700&display=swap'); */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Jacquard+24+Charted&family=Quicksand:wght@300..700&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Gilda+Display&family=Jacquard+24+Charted&family=Quicksand:wght@300..700&display=swap');
+
+
+:root{
+    --black: #181722;
+    --white: #f0f0f0;
+    --box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    --brown: #780000;
+    --peach: #fdf0d5;
+    --brown2: #c1121f;
+    --cream: #f4d58d;
+    /* palette- */
+    --color1: #FDFFFF;
+    --color2: #B10F2E;
+    --color3: #570000;
+    --color4: #280000;
+    --color5: #DE7C5A;
+    --color6: #bc4749;
+    --color7: #fdf0d5;
+}
+
+body{
+    /* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='57' height='57' patternTransform='scale(3) rotate(105)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,12.1%,21%,1)'/><path d='M44.11 8.56c-.065.316-.192.615-.24.931-.037.395-.11.796-.083 1.197.016.564.113 1.127.287 1.664.166.405.303.835.577 1.187.225.358.456.724.788.994.222.222.483.42.614.718.4.748.164 1.758-.536 2.242-.663.515-1.69.47-2.285-.131-.414-.374-.525-.936-.717-1.433-.195-.513-.238-1.06-.316-1.599 0-.442-.015-.886.008-1.327.073-.471.115-.955.235-1.42.081-.295.195-.578.303-.864.195-.472.436-.924.74-1.334.176-.282.439-.515.61-.809zm-2.819.134L38.42 14.01a1.83 1.83 0 01-2.446.745c-.878-.452-1.197-1.569-.745-2.446a2 2 0 01.745-.745zm.16-2.819a11.23 11.23 0 01-.771.638c-.49.34-1.008.652-1.581.832-.469.208-.978.308-1.484.387-.373.019-.736.106-1.112.084-.525.01-1.054-.003-1.566-.128-.563-.05-1.082-.293-1.612-.473-.832-.31-1.33-1.285-1.087-2.14.225-.892 1.211-1.49 2.107-1.28.45.09.836.38 1.111.738.274.272.54.558.89.73.347.243.713.455 1.117.586.428.163.87.291 1.329.322.578.108 1.18.056 1.755-.03.315-.026.605-.176.904-.266zm3.377.612a1.33 1.33 0 01-1.33-1.33 1.33 1.33 0 011.33-1.33 1.33 1.33 0 011.33 1.33 1.33 1.33 0 01-1.33 1.33zM41.439 44.11c-.315-.065-.614-.192-.93-.24-.395-.037-.796-.11-1.197-.083a5.959 5.959 0 00-1.664.287c-.405.166-.835.303-1.187.577-.358.225-.724.456-.994.788-.222.222-.42.483-.718.614-.748.4-1.758.164-2.242-.536-.515-.663-.47-1.69.131-2.285.374-.414.936-.525 1.433-.717.513-.195 1.06-.238 1.599-.316.442 0 .885-.015 1.326.008.472.073.956.115 1.421.235.295.081.578.195.864.303.472.195.924.436 1.334.74.282.177.515.439.809.61zm-.133-2.819L35.99 38.42a1.83 1.83 0 01-.745-2.446c.452-.878 1.569-1.197 2.446-.745a2 2 0 01.745.745zm2.819.16a11.223 11.223 0 01-.638-.771c-.34-.49-.652-1.008-.832-1.581-.208-.469-.308-.978-.387-1.484-.019-.373-.106-.736-.084-1.112-.01-.525.003-1.054.128-1.566.05-.563.293-1.082.473-1.612.31-.832 1.285-1.33 2.14-1.087.892.225 1.49 1.211 1.28 2.107-.09.45-.38.836-.738 1.111-.272.274-.558.54-.73.89-.243.347-.455.713-.586 1.117-.163.428-.291.87-.322 1.329-.108.578-.056 1.18.03 1.755.026.315.176.605.266.904zm-.612 3.377a1.33 1.33 0 011.33-1.33 1.33 1.33 0 011.33 1.33 1.33 1.33 0 01-1.33 1.33 1.33 1.33 0 01-1.33-1.33zM5.89 41.439c.065-.315.192-.614.24-.93.037-.395.11-.796.083-1.197a5.955 5.955 0 00-.287-1.664c-.166-.405-.303-.835-.577-1.187-.225-.358-.456-.724-.788-.994-.222-.222-.483-.42-.614-.718-.4-.748-.164-1.758.536-2.242.663-.515 1.69-.47 2.285.131.414.374.525.936.717 1.433.195.513.238 1.06.316 1.599 0 .442.015.885-.008 1.326-.073.472-.115.956-.235 1.421-.081.295-.195.578-.303.864a6.282 6.282 0 01-.74 1.334c-.176.282-.439.515-.61.809zm2.819-.133l2.871-5.317a1.83 1.83 0 012.446-.745c.878.452 1.197 1.569.745 2.446a2 2 0 01-.745.745zm-.16 2.819c.247-.226.507-.437.771-.638.49-.34 1.008-.652 1.581-.832.469-.208.978-.308 1.484-.387.373-.019.736-.106 1.112-.084.525-.01 1.054.003 1.566.128.563.05 1.082.293 1.612.473.832.31 1.33 1.285 1.087 2.14-.225.892-1.211 1.49-2.107 1.28-.45-.09-.836-.38-1.111-.738-.274-.272-.54-.559-.89-.73-.347-.243-.713-.455-1.117-.586-.428-.163-.87-.291-1.329-.322-.578-.108-1.18-.056-1.755.03-.315.026-.605.176-.904.266zm-3.377-.612a1.33 1.33 0 011.33 1.33 1.33 1.33 0 01-1.33 1.33 1.33 1.33 0 01-1.33-1.33 1.33 1.33 0 011.33-1.33zM8.561 5.89c.315.065.614.192.93.24.395.037.796.11 1.197.083a5.959 5.959 0 001.664-.288c.405-.165.835-.302 1.187-.576.358-.225.724-.456.994-.788.222-.222.42-.483.718-.614.748-.4 1.758-.164 2.242.536.515.663.47 1.69-.131 2.285-.374.414-.936.525-1.433.717-.513.195-1.06.238-1.599.316-.442 0-.885.015-1.326-.008-.472-.073-.956-.115-1.421-.235-.295-.081-.578-.195-.864-.303a6.281 6.281 0 01-1.334-.74c-.282-.177-.515-.439-.809-.61zm.133 2.819l5.317 2.871a1.83 1.83 0 01.745 2.446c-.452.878-1.569 1.197-2.446.745a2 2 0 01-.745-.745zm-2.819-.16c.226.247.437.507.638.771.34.49.652 1.008.832 1.581.208.469.308.978.387 1.484.019.373.106.736.084 1.112.01.525-.003 1.054-.128 1.566-.05.563-.293 1.082-.473 1.612-.31.832-1.285 1.33-2.14 1.087-.892-.225-1.49-1.211-1.28-2.107.09-.45.38-.836.738-1.111.272-.274.558-.54.73-.89.243-.347.455-.713.586-1.117.163-.428.291-.87.322-1.329.108-.578.056-1.18-.03-1.755-.026-.315-.176-.605-.266-.904zm.612-3.377a1.33 1.33 0 01-1.33 1.33 1.33 1.33 0 01-1.33-1.33 1.33 1.33 0 011.33-1.33 1.33 1.33 0 011.33 1.33zm22.515 22.552c2.052-.142 2.476-1.875 2.476-2.724 0-.849-.46-2.582-2.476-2.724C26.951 22.135 24.97 25 24.97 25s2.016 2.83 4.032 2.724zm-6.756 1.308c.142 2.052 1.875 2.476 2.724 2.476.849 0 2.582-.46 2.724-2.476C27.835 26.981 24.97 25 24.97 25s-2.83 2.016-2.724 4.032zm-1.308-6.756c-2.052.142-2.476 1.875-2.476 2.724 0 .849.46 2.582 2.476 2.724C22.989 27.865 24.97 25 24.97 25s-2.016-2.83-4.032-2.724zm6.756-1.308c-.142-2.052-1.875-2.476-2.724-2.476-.849 0-2.582.46-2.724 2.476C22.105 23.019 24.97 25 24.97 25s2.83-2.016 2.724-4.032z' transform='translate(3.5,0)' stroke-width='1' stroke='none' fill='hsla(2,33.7%,39%,1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>") */
+    /* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(1) rotate(20)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M27.26 5.415c-.55 0-.9.55-.65 1l2.45 4.75c.2.5.85.5 1.15.1l3.15-4.5c.3-.4 0-1.05-.55-1.1zM10.689 8.068c-.406-.051-.822.31-.778.748l.5 5.3c.05.5.6.8 1.05.5l4.55-3.05c.45-.3.4-.95-.05-1.15l-5.1-2.3a.605.605 0 0 0-.172-.048zM2.406 24.584a.635.635 0 0 0-.345.081l-4.75 2.4c-.45.2-.5.85-.1 1.15l4.45 3.15c.4.3 1 0 1.1-.5l.3-5.55c0-.412-.31-.712-.655-.73zm40 0a.635.635 0 0 0-.345.081l-4.75 2.4c-.45.2-.5.85-.1 1.15l4.45 3.15c.4.3 1 0 1.1-.5l.3-5.55c0-.412-.31-.712-.655-.73zm-22.17 3.108a.744.744 0 0 0-.675.723l.4 5.55c.05.5.6.8 1.05.5l4.45-2.95c.45-.25.4-.9-.05-1.15l-4.8-2.6a.702.702 0 0 0-.376-.073z'  stroke-width='1' stroke='none' fill='hsla(0, 100%, 8%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(-36,-19)' fill='url(%23a)'/></svg>") */
+    background-color: #28000060;
+}
+*{
+    /* font-family: "Quicksand", sans-serif; */
+    /* font-family: "Briem Hand", cursive; */
+    /* font-family: "Jacquard 24 Charted", system-ui; */
+    font-family: "Gilda Display", serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    transition: .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 0.8rem;
+}
+html::webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: var(--color3);
+    border-radius: 5rem;
+}
+
+
+
+/*header*/
+
+.header{
+    top: 0;right: 0;left: 0;
+    background-color: var(--peach);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 1.4rem 7%;
+    z-index: 999;
+}
+.header .logocontent{
+    display: flex;
+    align-items: center;
+}
+.header .logocontent .logo img{
+    height: 4rem;
+}
+/* .header .logocontent .logoname{
+    color: var(--brown);
+    font-size: 2rem;
+    font-weight: bolder;
+} */
+
+.header .navbar a{
+    font-size: 2rem;
+    margin-right: 3rem;
+    color: var(--brown);
+    font-weight: bold;
+}
+.header .navbar a:hover{
+    border-bottom: 0.3rem solid var(--brown);
+    padding-bottom: 0.4rem;
+}
+.header .icon i{
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: var(--brown);
+    cursor: pointer;
+}
+.header .search{
+    display: none;
+    top: 100%;
+    margin: 1.5rem 7%;
+    background-color: transparent;
+    right: 0;
+    width: 50%;
+    height: 5rem;
+    position: absolute;
+}
+.header .search input{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    background-color: var(--color7); /*--white*/
+    color: var(--black);
+    margin-right: 7%;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    box-shadow: var(--box-shadow);
+}
+.header .search.active{
+    display: inline-block;
+}
+#menubar{
+    display: none;
+}
+
+
+/*home*/
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(photos/main1.png)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* background-attachment: fixed; */
+}
+.home .homecontent{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.home .homecontent h2{
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    line-height: 4.5rem;
+    color: var(--color3);
+    text-shadow: var(--box-shadow);
+}
+.home .homecontent h2 .highlight:hover{
+    font-size: 5.1rem;
+}
+.home .homecontent p{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    color: var(--color2);
+}
+.home .homecontent .home-btn{
+    height: 3rem;
+}
+.home .homecontent .home-btn button{
+    font-size: 1.8rem;
+    background-color: var(--color3);
+    color: var(--white);
+    border-radius: 0.7rem;
+    padding: .7rem 2.4rem;
+    cursor: pointer;
+}
+.home .homecontent .home-btn button:hover{
+    font-size: 2rem;
+}
+
+@media (max-width:768px){
+    .home{
+    background: url(photos/fbg.png)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    }
+    .home .homecontent{
+        width: 95%;
+    }
+    .home .homecontent h2{
+        font-size: 4.5rem;
+        
+    }
+    .home .homecontent h2:hover{
+        font-size: 4rem;
+    }
+    .home .homecontent p{
+        font-size: 2rem;
+    }
+}
+section{
+    padding: 2rem 7%;
+}
+.heading{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    color: var(--color3);
+    /*border: .1rem solid var(--black);*/
+}
+.product .product-row{
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+}
+.product .product-row .box{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    background-color: var(--color7); /*Change here*/
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 1.5rem; 
+    border-radius: 3rem;
+    /* border-width: 0.5rem;
+    border-style: solid; */
+    margin-right: 3rem;
+}
+.product .product-row .img img{
+    /* height: 100%;
+    width: 100%; */
+    height: 300px;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid; 
+    border-width: 1.3rem;
+}
+.product .product-row .img img:hover{
+    transform: scale(1.1);
+}
+.product .product-row .product-content{
+    margin-bottom: 4rem;
+}
+.product .product-row .product-content h3{
+    font-size: 4rem;
+    color: var(--color3);
+}
+.product .product-row .product-content p{
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    color: var(--color4);
+}
+.product .product-row .product-content h4{
+    font-size: 2.8rem;
+    color: var(--color3);
+    padding-top: 2rem;
+}
+.product .product-row .product-content h4 .discount{
+    font-size: 1.8rem;
+    color: goldenrod;
+    padding-left: 0.5rem;
+}
+.product .product-row .product-content h5{
+    font-size: 2rem;
+    color: var(--color6);
+    text-decoration: line-through;
+}
+.product .product-row .product-content .orderNow{
+    height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.product .product-row .product-content .orderNow button{
+    font-size: 1.8rem;
+    background-color: var(--color4);
+    color: white;
+    border-radius: 0.7rem;
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+}
+.product .product-row .product-content .orderNow button:hover{
+    font-size: 2rem;
+}
+
+
+/* blogs*/
+
+.blogs{
+    background: url(images/backGround.png) no-repeat; /*background image of blogs section*/
+    background-size: cover;
+    background-position: center center;
+}
+.blogs .blogs-row .box{
+    display: flex;
+    align-items: center;
+    background-color: var(--color7);
+    flex-wrap: wrap;
+}
+
+.blogs .blogs-row .box .img{
+    flex: 1 1 45rem;
+}
+
+.blogs .blogs-row .box .img img{
+    /* width: 700px;
+    height: 500px; */
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid; 
+    border-width: 1.3rem;
+    /* padding: 5rem; */
+    
+}
+
+.blogs .blogs-row .box .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.blogs .blogs-row .box .content h3{
+    font-size: 3.5rem;
+    color: var(--color3);
+    text-shadow: var(--box-shadow);
+}
+
+.blogs .blogs-row .box .content p{
+    font-size: 1.6rem;
+    color: var(--color4);
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.blogs .blogs-row .box .content a{
+    font-size: 2rem;
+    color: var(--color6);
+    cursor: pointer;
+}
+.blogs .blogs-row .box .content a:hover{
+    color: var(--color6);
+    text-shadow: var(--box-shadow);
+}
+
+/*newletter*/
+
+.newsletter{
+    background: url(photos/news2.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.newsletter form{
+    max-width: 45rem;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.newsletter form h3{
+    font-size: 3rem;
+    color: var(--white);
+    padding: 0.7rem;
+}
+
+.newsletter form .box{
+    width: 100%;
+    margin: 0.7rem 0;
+    padding: 1rem 1.2rem;
+    color: var(--color3);
+    border-radius: .5rem;
+}
+
+.newsletter form .box2{
+    width: 50%;
+    padding: .5rem .5rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    color: var(--white);
+    background: var(--color3);
+    border-radius: 2rem;
+}
+
+
+/*review*/
+
+.review .review-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review .review-row .box{
+    width: 50%;
+    padding: 3rem;
+    border-radius: 3rem;
+    margin-bottom: 3rem;
+    background-color: var(--color7);
+    box-shadow: var(--box-shadow);
+}
+.review .review-row .box .client-review{
+    margin-bottom: 3rem;
+}
+
+.review .review-row .box .client-review p{
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: var(--color3);
+}
+
+
+.review .review-row .box .client-info{
+    display: flex;
+    align-items: center;
+    color: var(--black);
+}
+
+.review .review-row .box .client-info .img{
+    padding-right: 3rem;
+}
+
+.review .review-row .box .client-info .img img{
+    width: 7rem;
+    height: 7rem;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.review .review-row .box .client-info .clientdetails h3{
+    font-size: 2.5rem;
+    color: var(--color4);
+    padding-bottom: 0.5rem;
+}
+
+.review .review-row .box .client-info .clientdetails p{
+    font-size: 1.5rem;
+    color: var(--color3);
+}
+
+
+/*footer*/
+
+.footer{
+    background: url(photos/fbg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+}
+
+.footer .box-container .mainbox .content{
+    /* display: flex; */
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.footer .box-container .mainbox .content img{
+    height: 10rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer .box-container .mainbox .content p{
+    padding-top: 0;
+    padding-left: 9rem;
+    font-size: 2.5rem;
+    color: var(--brown);
+}
+
+.footer .box-container .mainbox p{
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+    color: var(--color3);
+    padding-left: 2rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    color: var(--brown);
+    padding: 1rem 2rem;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.6rem;
+    color: var(--color2);
+    padding: 1rem 2rem;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color: var(--brown);
+}
+
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .share{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer .share a{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    color: var(--white);
+    background: var(--color6);
+    margin: 0 .3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover{
+    background: var(--white);
+    color: var(--color6);
+}
+
+.footer .credit{
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    color: var(--color4);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.swiper-pagination-bullet{
+    background-color: var(--brown);
+}
+
+.swiper-button-next{
+    color: var(--brown);
+}
+
+.swiper-button-prev{
+    color: var(--brown);
+}
+
+
+
+
+/* media queries for web responsive */
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 1.3rem 3rem;
+    } 
+}
+
+@media (max-width:768px) {
+    #menubar{
+        display: inline-block;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 25rem;
+        background-color: var(--peach);
+        height: 80vh;
+    }
+    .header .navbar.active{
+        right: 0;
+    }
+    .header .navbar a{
+        display: block;
+        font-size: 2rem;
+        color: var(--color3);
+        margin: 1.5rem;
+    }
+}
+
+@media (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+}
